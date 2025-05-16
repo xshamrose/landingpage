@@ -1,0 +1,85 @@
+{
+  "properties": [
+    {
+      "id": 1,
+      "title": "Luxury Villa with Pool",
+      "price": "$1,200,000",
+      "location": "123 Palm Street, Beverly Hills",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "area": "3,500 sq ft",
+      "description": "Stunning modern villa with private pool and garden",
+      "images": [
+        "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1613977257363-707ba9348227?w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1613977257592-4871e5fcd7c4?w=800&auto=format&fit=crop"
+      ],
+      "amenities": [
+        "Swimming Pool",
+        "Garden",
+        "Smart Home",
+        "Security System",
+        "Double Garage",
+        "Central AC"
+      ],
+      "coordinates": {
+        "lat": 34.0736,
+        "lng": -118.4004
+      }
+    },
+    {
+      "id": 2,
+      "title": "Modern Downtown Apartment",
+      "price": "$650,000",
+      "location": "456 City Center Ave, Los Angeles",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "area": "1,200 sq ft",
+      "description": "Contemporary apartment with city views and modern amenities",
+      "images": [
+        "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1617806118233-18e1de247200?w=800&auto=format&fit=crop"
+      ],
+      "amenities": [
+        "Gym",
+        "Parking",
+        "24/7 Security",
+        "Rooftop Deck",
+        "Pet Friendly",
+        "Storage"
+      ],
+      "coordinates": {
+        "lat": 34.0522,
+        "lng": -118.2437
+      }
+    },
+    {
+      "id": 3,
+      "title": "Seaside Family Home",
+      "price": "$950,000",
+      "location": "789 Ocean Drive, Malibu",
+      "bedrooms": 3,
+      "bathrooms": 2.5,
+      "area": "2,800 sq ft",
+      "description": "Beautiful beachfront property with panoramic ocean views",
+      "images": [
+        "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1613977257363-707ba9348227?w=800&auto=format&fit=crop"
+      ],
+      "amenities": [
+        "Beach Access",
+        "Terrace",
+        "BBQ Area",
+        "Wine Cellar",
+        "Home Theater",
+        "Guest House"
+      ],
+      "coordinates": {
+        "lat": 34.0259,
+        "lng": -118.7798
+      }
+    }
+  ]
+}
