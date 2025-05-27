@@ -38,16 +38,36 @@ const HeroSection = () => {
   ];
 
   return (
-    <Box sx={{ height: "100vh", marginTop: "-64px" }}>
+    <Box
+      sx={{
+        height: "100vh",
+        width: "100vw",
+        marginTop: "-64px",
+        maxWidth: "100vw",
+        overflowX: "hidden",
+        overflowY: "hidden",
+      }}
+    >
       <Slider {...settings}>
         {slides.map((slide, index) => (
-          <Box key={index} sx={{ position: "relative", height: "100vh" }}>
+          <Box
+            key={index}
+            sx={{
+              position: "relative",
+              height: "100vh",
+              width: "100vw",
+              maxWidth: "100vw",
+              overflowX: "hidden",
+              overflowY: "hidden",
+            }}
+          >
             <Box
               sx={{
                 backgroundImage: `url(${slide.image})`,
                 backgroundSize: "cover",
                 backgroundPosition: "center",
-                height: "100%",
+                height: "100vh",
+                width: "100vw",
                 filter: "brightness(0.7)",
               }}
             />
@@ -59,6 +79,9 @@ const HeroSection = () => {
                 transform: "translate(-50%, -50%)",
                 textAlign: "center",
                 color: "white",
+                width: "100vw",
+                maxWidth: "100vw",
+                pointerEvents: "none",
               }}
             >
               <motion.div

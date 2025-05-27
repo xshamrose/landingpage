@@ -2,7 +2,6 @@ import React from "react";
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import { ThemeProvider, createTheme, CssBaseline, Box } from "@mui/material";
 import Header from "./components/Header";
-import BottomNav from "./components/BottomNav";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import "@fontsource/roboto/300.css";
@@ -64,7 +63,9 @@ function App() {
             minHeight: "100vh",
             display: "flex",
             flexDirection: "column",
-            width: "100%",
+            maxWidth: "100vw",
+            overflowX: "hidden",
+            // width: "100%",
           }}
         >
           <Header />
@@ -80,7 +81,7 @@ function App() {
             </Routes>
           </Box>
           <Footer />
-          <BottomNav />
+          {/* <BottomNav /> removed */}
         </Box>
       </Router>
     </ThemeProvider>

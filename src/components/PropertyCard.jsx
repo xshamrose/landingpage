@@ -37,6 +37,7 @@ const PropertyCard = ({ property }) => {
           transform: "translateY(-8px)",
         },
       }}
+      className="cardbox"
     >
       <Box sx={{ position: "relative" }}>
         <CardMedia
